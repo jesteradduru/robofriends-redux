@@ -46,6 +46,7 @@
     }
   ],
   "start_url": ".",
+  "id": "/robofriends-redux/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
