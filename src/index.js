@@ -9,9 +9,8 @@ import 'tachyons';
 
 
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
 import { requestRobots, searchRobots } from './reducers'
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import './index.css';
 
 const logger = createLogger() 
@@ -33,4 +32,4 @@ root.render(
 //   </Provider>,
 //   document.getElementById('root')
 // );
-registerServiceWorker();
+serviceWorkerRegistration.register();
